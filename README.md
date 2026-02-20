@@ -1,3 +1,5 @@
+[![Python Tests](https://github.com/slichtarge/HW6-HMM/actions/workflows/pytest.yml/badge.svg)](https://github.com/slichtarge/HW6-HMM/actions/workflows/pytest.yml)
+
 # HW6-HMM
 
 In this assignment, you'll implement the Forward and Viterbi Algorithms (dynamic programming). 
