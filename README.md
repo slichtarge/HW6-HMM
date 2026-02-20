@@ -2,6 +2,10 @@
 
 In this assignment, you'll implement the Forward and Viterbi Algorithms (dynamic programming). 
 
+Forward: Given an observed sequence, calculate how probable it is that that specific sequence is observed.
+
+Viterbi: Given an observed sequence, calculate the most probable hidden states sequence to have resulted in that specific observed sequence.
+
 
 # Assignment
 
