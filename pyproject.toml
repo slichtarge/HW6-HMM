@@ -1,19 +1,18 @@
 [build-system]
-requires = [
-	"flit_core >=3.2,<4",
-	"python_version >='3.7'"
-	]
+requires = ["flit_core >=3.2,<4"]
 build-backend = "flit_core.buildapi"
 
 [project]
 name = "hmm"
 authors = [{name = "Sara Lichtarge", email = "sara.lichtarge@ucsf.edu"}]
+requires-python = ">=3.7"  # <--- This is the correct way to specify Python version
 readme = "README.md"
 license = {file = "LICENSE"}
 classifiers = ["License :: OSI Approved :: MIT License"]
 dynamic = ["version", "description"]
 dependencies = [
-    "pytest", "numpy" 
+    "pytest", 
+    "numpy" 
 ]
 
 [project.urls]
